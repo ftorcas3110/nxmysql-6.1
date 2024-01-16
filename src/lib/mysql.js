@@ -4,8 +4,8 @@ export const db = mysql({
     config: {
         host: 'localhost',
         user: 'root',
-        password: 'root',
+        password: "clave-123",
         port: 3306,
-        database: 'datos'
+        database: 'proveedores'
     }
 })
